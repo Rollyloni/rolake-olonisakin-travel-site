@@ -1,0 +1,17 @@
+* *::before *::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana;
+}
+
+.site-header {
+  display: flex;
+}
+.site-header__nav {
+  display: flex;
+  justify-items: space-around;
+}
+.site-header__list {
+  display: inline-block;
+}
