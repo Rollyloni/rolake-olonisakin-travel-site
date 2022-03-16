@@ -53,7 +53,13 @@ a:active {
 }
 .hero-section__button {
   background-color: #db7a4e;
-  padding: 20px;
+  padding: 12px 40px;
+  border-radius: 60px;
+}
+
+.card-section {
+  margin-bottom: 60px;
+  margin-top: 40px;
 }
 .test {
   height: 28rem;
@@ -79,4 +85,15 @@ a:active {
 .headings {
   font-size: 22px;
   margin-left: 100px;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #fefaf5;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.footer-image {
+  padding-bottom: 12xpx;
 }
