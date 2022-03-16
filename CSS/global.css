@@ -19,7 +19,6 @@ a:active {
   align-content: center;
   align-items: center;
   background-color: #ffffff;
-  margin-left: 100px;
   margin-right: 100px;
   margin-top: 0;
 }
@@ -57,15 +56,27 @@ a:active {
   padding: 20px;
 }
 .test {
-  background-image: url(/Assets/2.0-Assets/Images/hawaii.jpg);
-  background-position: center;
-  background-size: cover;
+  height: 28rem;
+  width: 18.8rem;
   border-radius: 5px;
   border: 1px solid black;
-  opacity: 20%;
-  filter: blur(4px);
-  color: black;
-  filter: opacity(20%);
-  height: 38.5rem;
-  width: 30%;
+  box-shadow: 0px 4px 4px black;
+  position: relative;
+  margin: 20px;
+}
+.card-heading {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  color: white;
+  font-size: 24px;
+}
+.card-navigation {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.headings {
+  font-size: 22px;
+  margin-left: 100px;
 }
