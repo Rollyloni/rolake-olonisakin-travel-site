@@ -3,15 +3,69 @@
 }
 body {
   font-family: Verdana;
+  color: #335576;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
 }
 
 .site-header {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
 }
-.site-header__nav {
+.site-header__nav--heading {
   display: flex;
   justify-items: space-around;
 }
 .site-header__list {
-  display: inline-block;
+  margin: 1.25rem;
+  list-style: none;
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fefaf5;
+  margin: 0;
+  padding: 6rem;
+  padding-top: 4rem;
+}
+.hero-text__heading {
+  font-size: 40px;
+  text-align: left;
+  color: #335576;
+}
+.hero-image {
+  margin-left: 80px;
+  padding-left: 40px;
+}
+.hero-text__paragraph {
+  text-align: left;
+  margin-bottom: 80px;
+}
+.hero-section__button {
+  background-color: #db7a4e;
+  padding: 20px;
+}
+.test {
+  background-image: url(/Assets/2.0-Assets/Images/hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid black;
+  opacity: 20%;
+  filter: blur(4px);
+  color: black;
+  filter: opacity(20%);
+  height: 38.5rem;
+  width: 30%;
 }
