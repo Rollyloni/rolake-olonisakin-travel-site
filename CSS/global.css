@@ -18,6 +18,9 @@ a:active {
 a:hover {
   border-bottom: 4px solid #db7a4e;
 }
+a.recommendation-heading--link {
+  color: #335576;
+}
 
 .site-header {
   display: flex;

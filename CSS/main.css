@@ -37,6 +37,10 @@ a.hero-section__button {
   margin-bottom: 3.75rem;
   margin-top: 2.5rem;
 }
+.card-section__images {
+  height: 447px;
+  width: 100%;
+}
 .card-block {
   height: 28rem;
   width: 18.8rem;
