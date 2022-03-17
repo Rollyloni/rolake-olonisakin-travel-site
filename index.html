@@ -3,25 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/global.css" />
+    <link rel="stylesheet" href="./CSS/global.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
     <title>Travel Site - Home</title>
   </head>
+
   <body>
+
+            <!--Navigation section-->
+
     <header class="site-header">
       <section >
-      <h3 class="headings">Travel Site</h3>
+      <h3 class="recommendation-heading">Travel Site</h3>
     </section>
       <nav class="site-header__nav">
         <ul class="site-header__nav--heading">
-          <li class="site-header__list"><a href="#"> Home</a></li>
-          <li class="site-header__list"><a href="#"> Hawaii</a></li>
-          <li class="site-header__list"><a href="#"> Iceland</a></li>
-          <li class="site-header__list"><a href="#"> Greece</a></li>
+          <li class="site-header__list"><a href="./index.html"> Home</a></li>
+          <li class="site-header__list"><a href="../pages/hawaii.html"> Hawaii</a></li>
+          <li class="site-header__list"><a href="../pages/iceland.html"> Iceland</a></li>
+          <li class="site-header__list"><a href="../pages/greece.html"> Greece</a></li>
         </ul>
       </nav>
     </header>
-
     <main>
+
+              <!--Hero section-->
+
       <section class="hero-section">
         <article class="hero-text">
           <h2 class="hero-text__heading">Travelling Comes With Endless Discoveries</h2>
@@ -33,68 +40,74 @@
         </article>
 
         <article class="hero-image"> 
-          <img src="/Assets/Images/hero.png" alt="hero-global" 
+          <img src="../assets/Images/hero.png" alt="hero-global" 
           width="450px" />
         </article>
-      </section  >
+      </section>
+
+               <!--Recommendation section-->
+
       <section class="card-section">
-        <h3 class="headings">Recommendations</h3>
+        <h3 class="recommendation-heading">Recommendations</h3>
         <nav class="card-navigation">
-       <a href="#">
-          <div class="test">
-            <img src="/Assets/Images/hawaii.jpg" alt="hawaii"
+          <article>
+       <a href="../pages/hawaii.html">
+          <div class="card-block">
+            <img src="../assets/Images/hawaii.jpg" alt="hawaii"
             height="447px"
             width="300px"/>
           <h3 class="card-heading">Hawaii</h3>
-        </div>
        </a>
-
-       <a href="#">
-        <div class="test">
-          <img src="/Assets/Images/iceland.jpg" alt="Iceland"
+      </article>
+      <article>
+       <a href="../pages/iceland.html">
+        <div class="card-block">
+          <img src="../assets/Images/iceland.jpg" alt="Iceland"
           height="447px"
           width="300px"/>
         <h3 class="card-heading">Iceland</h3>
       </div>
      </a>
-
-     <a href="#">
-      <div class="test">
-        <img src="/Assets/Images/greece.jpg" alt="Greece"
+    </article>
+    <article>
+     <a href="../pages/greece.html">
+      <div class="card-block">
+        <img src="../assets/Images/greece.jpg" alt="Greece"
         height="447px"
         width="300px"/>
       <h3 class="card-heading">Greece</h3>
     </div>
    </a>
+  </article>
         </nav>
       </section>
     </main>
-
+             <!--Footer section-->
     <footer>
       <section>
         <h3>Contact</h3>
-        <p>EMAIL</p>
-        <p><a href="mailto:info@travelsite.com">info@travelsite.com</a></p>
+        <p class="footer-paragraph">EMAIL</p>
+        <p>info@travelsite.com</p>
       </section>
       <section>
         <h3>Hours</h3>
-        <p>MONDAY - FRIDAY</p>
+        <p class="footer-paragraph">MONDAY - FRIDAY</p>
         <p>9:00 AM - 5:00 PM</p>
       </section>
       <section>
-        <p>SATURDAY</p>
+        <p class="footer-paragraph">SATURDAY</p>
         <p>10:00 AM - 4:00 PM</p>
       </section>
       <section>
-        <p>SUNDAY</p>
+        <p class="footer-paragraph">SUNDAY</p>
         <p>Closed</p>
       </section>
       <section>
         <h3>Social</h3>
         <div class="footer-image">
-        <img src="/Assets/Icons/icon-instagram.png" width="30px"/>
-        <img src="/Assets/Icons/icon-facebook.png" width="25px"/>
-        <img src="/Assets/Icons/icon-twitter.png" width="30px"/>
+        <img src="../assets/Icons/icon-instagram.png" width="30px"/>
+        <img src="../assets/Icons/icon-facebook.png" width="15px"/>
+        <img src="../assets/Icons/icon-twitter.png" width="30px"/>
       </div>
       </section>
     </footer>

@@ -1,5 +1,7 @@
 * *::before *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: Verdana;
@@ -31,62 +33,6 @@ a:active {
   margin: 1.25rem;
   list-style: none;
 }
-.hero-section {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fefaf5;
-  margin: 0;
-  padding: 6rem;
-  padding-top: 4rem;
-}
-.hero-text__heading {
-  font-size: 40px;
-  text-align: left;
-  color: #335576;
-}
-.hero-image {
-  margin-left: 80px;
-  padding-left: 40px;
-}
-.hero-text__paragraph {
-  text-align: left;
-  margin-bottom: 80px;
-}
-.hero-section__button {
-  background-color: #db7a4e;
-  padding: 12px 40px;
-  border-radius: 60px;
-}
-
-.card-section {
-  margin-bottom: 60px;
-  margin-top: 40px;
-}
-.test {
-  height: 28rem;
-  width: 18.8rem;
-  border-radius: 5px;
-  border: 1px solid black;
-  box-shadow: 0px 4px 4px black;
-  position: relative;
-  margin: 20px;
-}
-.card-heading {
-  position: absolute;
-  right: 16px;
-  bottom: 0;
-  color: white;
-  font-size: 24px;
-}
-.card-navigation {
-  display: flex;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-.headings {
-  font-size: 22px;
-  margin-left: 100px;
-}
 footer {
   display: flex;
   align-items: flex-end;
@@ -96,5 +42,13 @@ footer {
   padding-right: 200px;
 }
 .footer-image {
-  padding-bottom: 12xpx;
+  padding-bottom: 12px;
+}
+.footer-paragraph {
+  font-size: 0.75rem;
+  color: #db7a4e;
+}
+.recommendation-heading {
+  font-size: 22px;
+  margin-left: 100px;
 }
